@@ -107,3 +107,51 @@ print(whole_cucumbers_per_person)  # In python 2 this prints 16
 
 float_cucumbers_per_person = float(cucumbers) / num_people
 print(float_cucumbers_per_person)
+
+# Multi-line strings
+
+# Can be assigned to a variable and work as a multi line string otherwise are multi line comments
+# E.g
+""" This 
+is a multi-line
+comment
+"""
+
+haiku = """The old pond,
+A frog jumps in:
+Plop!
+"""
+print(haiku)
+
+# Booleans
+# Simple true or false e.g
+
+isTrue = True
+isFalse = False
+
+# Code Academy example
+
+# Hi! I'm Maria and I live in script.py.
+# I'm an expert Python coder.
+# I'm 21 years old and I plan to program cool stuff forever.
+age_is_12 = False
+name_is_maria = True
+
+# Variable conversions to different datatypes
+# E.g converting to string using str() method
+
+float_1 = 0.25
+float_2 = 40.0
+product = float_1 * float_2
+big_string = "The product was " + str(product)
+print(big_string)
+
+# Final Code Academy challenge
+
+skill_completed = "Python Syntax"
+exercises_completed = 13
+# The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+point_total = 100
+point_total += exercises_completed * points_per_exercise
+print("I got " + str(point_total) + " points!")

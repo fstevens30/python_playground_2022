@@ -76,3 +76,34 @@ print(float1)
 print(float2)
 print(float3)
 print(float4)
+
+# Grocery list activity
+cucumbers = 3
+price_per_cucumber = 3.25
+
+total_cost = cucumbers * price_per_cucumber
+
+print(total_cost)  # total_cost is a float
+
+# Division
+
+# THE FOLLOWING ONLY APPLIES TO PYTHON 2
+# When dividing two integers they become rounded down instead of converting to float
+# E.G
+
+div1 = 7 / 2
+print(div1)  # Prints 3 instead of 3.5 in python 2
+
+# To overcome this we can make a value or two floats e.g
+div2 = 7.0 / 2
+print(div2)
+
+# Cucumbers division with python 2 activity
+
+cucumbers = 100
+num_people = 6
+whole_cucumbers_per_person = cucumbers / num_people
+print(whole_cucumbers_per_person)  # In python 2 this prints 16
+
+float_cucumbers_per_person = float(cucumbers) / num_people
+print(float_cucumbers_per_person)

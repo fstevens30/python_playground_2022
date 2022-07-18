@@ -5,6 +5,8 @@
 - Learning with resources and activities from Code Academy
 - Using Visual Studio 2022
 
+## Projects within this repository are documented below.
+
 # Python Currency Converter
 **A simple Python program to convert currency**
 

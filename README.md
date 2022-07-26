@@ -23,6 +23,7 @@
 - Converts this into integers of how much water, grain, animal lives and water.
 - Prints how much they have saved.
 - NOTE - Basic program is complete, now refining and expanding upon.
+- NOTE - Vegan statistics are gathered from [here](https://www.panmacmillan.com/blogs/lifestyle-wellbeing/environmental-health-benefits-of-being-vegan)
 
 -------------------------------------------------------------------------
 

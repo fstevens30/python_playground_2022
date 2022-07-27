@@ -60,8 +60,19 @@ litrePerDay = 4163.953
 forestPerDay = 2.78709
 animalPerDay = 1
 
+#math
 
+grainSave = "{:.}".format(math.floor(grainPerDay * totalDays))
+litreSave = "{:.}".format(math.floor(litrePerDay * totalDays))
+forestSave = "{:.}".format(math.floor(forestPerDay * totalDays))
+animalSave = "{:.}".format(math.floor(animalPerDay * totalDays))
 
+#Print results
+
+print("\nYou have saved " + str(grainSave) + " kilograms of grain.")
+print("You have saved " + str(litreSave) + " litres of water.")
+print("You have saved " + str(forestSave) + " m2 of forest.")
+print("You have saved " + str(animalSave) + " animals.")
 
 
 

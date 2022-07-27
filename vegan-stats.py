@@ -31,11 +31,33 @@ print("You have saved " + str(animalSave) + " animals.")
 """
 #this works well but i can make it look nicer and make the inputs easier
 
+#setup
 
 import math
 
-days = years*365 or weeks*7
-weeks = days/7
-years = days/365
+#intro
+
+print("Welcome to the Vegan Statistics Calculator!\n")
+print("This tool will help you find out how much you can save over a period of time under a vegan lifestyle.\n")
+
+#initial math, converting day month and year to days
+
+numDays = int(input("How many days have you been vegan: \n"))
+numMonths = int(input("How many months have you been vegan: \n"))
+numYears = int(input("How many years have you been vegan: \n"))
+
+totalDays = numDays + (numMonths * 30) + (numYears * 365)
+
+#display total time vegan
+
+print("You have been vegan for " + str(numYears) + " years, " + str(numMonths) + " months, and " + str(numDays) + " days.")
+print("That is a total of " + str(totalDays) + " days.\n")
+
+
+
+
+
+
+
 
 

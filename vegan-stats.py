@@ -53,7 +53,12 @@ totalDays = numDays + (numMonths * 30) + (numYears * 365)
 print("You have been vegan for " + str(numYears) + " years, " + str(numMonths) + " months, and " + str(numDays) + " days.")
 print("That is a total of " + str(totalDays) + " days.\n")
 
+#assigning variables
 
+grainPerDay = 18.1437
+litrePerDay = 4163.953
+forestPerDay = 2.78709
+animalPerDay = 1
 
 
 
